@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, sans-serif;
+}
+
+header {
+  padding: 24px;
+  background-color: rgb(83, 234, 113);
+  font-size: 60px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 40px auto 40px;
+}
+
+.product-actions {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+  padding: 24px;
+  outline: 2px solid darkgray;
+  border-radius: 16px;
+}
+
+button {
+  min-width: 40px;
+  padding: 8px;
+  background-color: black;
+  font-family: inherit;
+  color: whitesmoke;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+
+button:focus {
+  outline: 2px solid black;
+  outline-offset: 2px;
+}
+
+footer {
+  margin-left: auto;
+}
+
+.total {
+  font-size: 48px;
+}
+
+.like {
+  background-color: red;
+}

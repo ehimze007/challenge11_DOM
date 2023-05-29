@@ -5,7 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="cart">
+      <h1>Shopping Cart</h1>
+      <ul class="cart-items"></ul>
+      <div class="cart-total">Total: ₦0</div>
+    </header>
+
+    <div class="products">
+      <h2>Products</h2>
+      <ul class="product-list">
+        <li class="product-item" data-name="Product 1" data-price="10">
+          <h3>Product 1</h3>
+          <div class="product-price">₦10</div>
+          <div class="product-actions">
+            <button class="increment">+</button>
+            <span class="quantity">0</span>
+            <button class="decrement">-</button>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="like">♡</button>
+            <button class="remove">Remove</button>
+          </div>
+        </li>
+        <li class="product-item" data-name="Product 2" data-price="20">
+          <h3>Product 2</h3>
+          <div class="product-price">₦20</div>
+          <div class="product-actions">
+            <button class="increment">+</button>
+            <span class="quantity">0</span>
+            <button class="decrement">-</button>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="like">♡</button>
+            <button class="remove">Remove</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
